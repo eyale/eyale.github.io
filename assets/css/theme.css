@@ -11100,6 +11100,7 @@ a.theme-link:hover {
 }
 .text {
   font-family: 'Helvetica Neue', Arial;
+  overflow-wrap: break-word;
 }
 
 .footer .copyright {
