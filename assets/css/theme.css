@@ -10943,8 +10943,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Quicksand', sans-serif;
-  color: #1c1e2e;
+  font-family: 'Helvetica Neue', Arial;
   font-weight: bold
 }
 
@@ -11095,13 +11094,17 @@ a.theme-link:hover {
 }
 
 .site-logo .logo-text {
-  color: #1c1e2e;
   font-size: 1.5rem;
-  font-weight: bold
+  font-weight: bold;
+  font-family: 'Helvetica Neue', Arial;
+}
+.text {
+  font-family: 'Helvetica Neue', Arial;
 }
 
 .footer .copyright {
-  font-size: 0.875rem
+  font-size: 0.875rem;
+  font-family: 'Helvetica Neue', Arial;
 }
 
 .section-heading {
