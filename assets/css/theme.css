@@ -10922,16 +10922,8 @@ a.text-dark:focus {
   }
 }
 
-/*!  
- * DevBook - Bootstrap 4 Book/eBook Landing Page Template for Developers
- * Version: 1.2
- * Author: Xiaoying Riley
- * Copyright: 3rd Wave Media Ltd.
- * Website: http://themes.3rdwavemedia.com/
- * Twitter: @3rdwave_themes
-*/
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Helvetica Neue', Helvetica,Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #4c527d
@@ -10943,7 +10935,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Helvetica Neue', Arial;
+  font-family: 'Helvetica Neue', Helvetica,Arial, sans-serif;
   font-weight: bold
 }
 
