@@ -10926,7 +10926,7 @@ body {
   font-family: 'Helvetica Neue', Helvetica,Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #4c527d
+  color: #1d1d1f
 }
 
 h1,
@@ -10989,7 +10989,7 @@ a.theme-link:hover {
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:focus {
-  background: #404B69
+  background: #1d1d1f
 }
 
 .btn-secondary {
@@ -11038,7 +11038,7 @@ a.theme-link:hover {
 }
 
 .theme-bg-primary {
-  background: #404B69
+  background: #1d1d1f
 }
 
 .theme-bg-light-gradient {
