@@ -515,6 +515,13 @@ mark,
   height: auto
 }
 
+.products li {
+  font-size: 1.56rem;
+}
+.text b {
+  font-size: 1.56rem;
+}
+
 .figure {
   display: inline-block
 }
@@ -2640,7 +2647,7 @@ textarea.form-control.is-invalid {
   background-color: transparent;
   border: 1px solid transparent;
   padding: .375rem .75rem;
-  font-size: 1rem;
+  font-size: 1.56rem;
   line-height: 1.5;
   border-radius: .25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out
@@ -11093,6 +11100,7 @@ a.theme-link:hover {
 .text {
   font-family: 'Helvetica Neue', Arial;
   overflow-wrap: break-word;
+  font-size: 1.56rem;
 }
 
 .footer .copyright {
@@ -11101,7 +11109,8 @@ a.theme-link:hover {
 }
 
 .section-heading {
-  font-size: 2.5rem
+  font-size: 2.5rem;
+  margin-bottom: 1.6rem;
 }
 
 .section-intro {
