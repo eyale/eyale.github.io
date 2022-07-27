@@ -4540,7 +4540,16 @@ input.btn-block[type="button"] {
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
-  white-space: nowrap
+  white-space: nowrap;
+  text-align: center;
+}
+
+.stores {
+    width: 350px;
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .navbar-brand:hover,
