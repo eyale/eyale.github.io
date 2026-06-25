@@ -25,7 +25,7 @@
           <a href="#apps">Apps</a>
           <a href="#contact">Contact</a>
         </nav>
-        <a class="btn btn-primary apple-nav-cta" href="/CV_HonchovAnton.pdf" download="CV_HonchovAnton.pdf">Download CV</a>
+        <a class="btn btn-primary apple-nav-cta" href="/CV_AntonHoncharov.pdf" download="CV_AntonHoncharov.pdf">Download CV</a>
       </div>
     </div>
   </header>
@@ -40,16 +40,16 @@
               <h1 class="headline">Building polished Apple-platform products with performance, clarity, and craft.</h1>
               <p class="subheadline">
                 I’m Anton Honcharov, a mobile engineer focused on SwiftUI, UIKit, Vision, Core Image, and product architecture.
-                Over 10+ years, I’ve shipped consumer apps, modernized legacy systems, and helped teams scale features used by 1.5M+ monthly users.
+                Over 10+ years in software (5+ focused on iOS), I’ve shipped consumer apps, modernized legacy systems, and built features used by 1.5M+ monthly users.
               </p>
               <div class="hero-meta">
                 <span>🇲🇪 Podgorica, Montenegro</span>
                 <a href="tel:+382068707689">+382068707689</a>
-                <a href="mailto:dev.honcharov@gmail.com">dev.honcharov@gmail.com</a>
+                <a href="mailto:4eyalush@gmail.com">4eyalush@gmail.com</a>
               </div>
               <div class="cta-holder">
-                <a class="btn btn-primary mr-lg-2" href="/CV_HonchovAnton.pdf" download="CV_HonchovAnton.pdf">Download CV</a>
-                <a class="btn btn-secondary" href="/CV_HonchovAnton.pdf" target="_blank" rel="noopener noreferrer">Preview CV</a>
+                <a class="btn btn-primary mr-lg-2" href="/CV_AntonHoncharov.pdf" download="CV_AntonHoncharov.pdf">Download CV</a>
+                <a class="btn btn-secondary" href="/CV_AntonHoncharov.pdf" target="_blank" rel="noopener noreferrer">Preview CV</a>
               </div>
             </div>
           </div>
@@ -94,18 +94,20 @@
           <article class="apple-timeline-card">
             <div class="timeline-heading">
               <div>
-                <p class="timeline-company">ODDITY</p>
-                <h3>Senior iOS Developer</h3>
+                <p class="timeline-company">ODDITY (Methodiq)</p>
+                <h3>Senior iOS Developer / Squad Lead</h3>
               </div>
-              <p class="timeline-period">March 2023 – Present</p>
+              <p class="timeline-period">March 2023 – June 2026</p>
             </div>
-            <p class="timeline-summary">Beauty app with advanced face recognition and image processing.</p>
-            <p class="timeline-stack">SwiftUI, Apple Vision, CoreImage, AVFoundation, CoreVideo, Apollo GraphQL, Firestore, Braze, Amplitude</p>
+            <p class="timeline-summary">Teledermatology / personal health platform — AI skin analysis, prescription-based treatments, diagnosis and progress tracking (US market).</p>
+            <p class="timeline-stack">Swift 6, SwiftUI, UIKit, Clean Architecture, MVVM + Coordinator, Factory DI, Apollo GraphQL, Apple Vision, AVFoundation, Core Graphics / Core Image, Firebase / Firestore, Amplitude, Braze</p>
             <ul class="products">
-              <li>Implemented facial detection and image segmentation with Apple Vision.</li>
-              <li>Built high-performance image pipelines using CoreImage and CoreVideo.</li>
-              <li>Improved analytics quality through cleaner Amplitude and Braze integrations.</li>
-              <li>Introduced architecture changes that improved stability and long-term scalability.</li>
+              <li>Built a real-time on-device AI skin analysis pipeline (Apple Vision) that renders results over the live camera feed within seconds.</li>
+              <li>Engineered a quality-gating triage: anomaly scoring, head-pose angle validation, and hair-occlusion detection to reject bad frames before analysis.</li>
+              <li>Implemented GPU-accelerated lesion rendering (Core Graphics + Core Image, shared CIContext, offscreen rendering) — dozens of color-coded lesions with no frame drops.</li>
+              <li>Designed progressive result delivery over Server-Sent Events (~35 DTOs across 5 analysis blocks) merged incrementally on actors.</li>
+              <li>Led the My Plans v2 Subscriptions/Cadences feature end-to-end (single PR: 144 commits, 165 files, +10,800 lines).</li>
+              <li>As Squad Lead: owned technical direction, code review, and delivery for the iOS squad while staying hands-on.</li>
             </ul>
           </article>
 
