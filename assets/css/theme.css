@@ -11754,11 +11754,18 @@ a:hover {
 }
 
 .hero-section {
-  padding: 4.5rem 0;
+  padding: 2rem 0;
 }
 
 .apple-hero {
-  padding-top: 3.5rem;
+  padding-top: 1.5rem;
+}
+
+.hero-row {
+  display: flex;
+  align-items: normal;
+  justify-content: space-between;
+  gap: 2.5rem;
 }
 
 .eyebrow {
@@ -11772,12 +11779,12 @@ a:hover {
 
 .headline,
 .hero-section .headline {
-  max-width: 12ch;
-  margin-bottom: 1.25rem;
+  max-width: 18ch;
+  margin-bottom: 1rem;
   color: var(--apple-text);
-  font-size: clamp(3rem, 7vw, 5.6rem);
-  line-height: 0.96;
-  letter-spacing: -0.05em;
+  font-size: clamp(2rem, 4.5vw, 3.4rem);
+  line-height: 1.05;
+  letter-spacing: -0.04em;
   font-weight: 700;
 }
 
@@ -11791,14 +11798,16 @@ a:hover {
 }
 
 .hero-copy {
-  max-width: 640px;
+  flex: 1 1 auto;
+  min-width: 0;
+  max-width: 560px;
 }
 
 .hero-meta {
   display: flex;
   flex-wrap: wrap;
   gap: 0.85rem 1.1rem;
-  margin: 1.6rem 0 2rem;
+  margin: 1.2rem 0 1.4rem;
 }
 
 .hero-meta span,
@@ -11894,6 +11903,17 @@ a:hover {
 .apple-device-frame-compact {
   max-width: 520px;
   margin-left: auto;
+}
+
+.apple-device-frame-hero {
+  flex-shrink: 0;
+  width: min(400px, 40vw);
+  padding: 1.1rem;
+  border-radius: 34px;
+}
+
+.apple-device-frame-hero .hero-portrait {
+  border-radius: 24px;
 }
 
 .hero-portrait,
@@ -12180,6 +12200,21 @@ a:hover {
 
   .apple-device-frame-compact {
     margin-left: 0;
+  }
+
+  .hero-row {
+    flex-direction: column-reverse;
+    align-items: stretch;
+  }
+
+  .apple-device-frame-hero {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .hero-copy {
+    max-width: none;
   }
 }
 
